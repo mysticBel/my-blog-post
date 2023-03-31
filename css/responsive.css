@@ -1,0 +1,23 @@
+/******Media Queries **********/
+@media (max-width: 768px) {
+    nav{
+        padding: 15px 20px;
+    }
+
+    nav div h2{
+        margin-left: 20px;
+        color:rgb(65, 117, 147);
+        font-size: 1rem;
+    }
+
+    #home .btn{
+        display: flex;
+        flex-direction: column;
+               
+    }
+    
+    #home a{
+       margin-top: 1rem;
+    }
+    
+}

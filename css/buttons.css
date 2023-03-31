@@ -1,0 +1,43 @@
+/*home btn*/
+
+#home .btn{
+    margin-top: 30px;
+    
+}
+
+#home a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    background-color: #ffffff;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+#home a.btn_left{
+    color:#ffffff;
+    background: rgb(65, 117, 147);
+    transition: 0.3s ease;
+    
+}
+
+#home a.btn_left:hover{
+    color:rgb(21,21,100);
+    background: #ffffff;
+    cursor: pointer;
+    
+}
+
+#home a.btn_right{
+    color:#ffffff;
+    background: rgb(202, 147, 80);
+    transition: 0.3s ease;
+   
+}
+
+#home a.btn_right:hover{
+    color:rgb(21,21,100);
+    background: #ffffff;
+    cursor: pointer;   
+
+}

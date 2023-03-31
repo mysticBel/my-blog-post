@@ -1,0 +1,41 @@
+/**** FOoter**********/
+footer{
+    padding: 0.5vw;
+    background: #101c32;
+    margin-top: 8vw;
+    color: #f9f9ff;
+    
+}
+
+footer .copyright{
+    margin-top: 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0 50px 30px 50px;
+    
+    
+}
+
+footer .social_links{
+    margin-top:10px;
+}
+
+footer .social_links i{
+    padding:10px 13px ;
+    border: 1px solid rgb(21,21,100);
+    background: rgb(103, 110, 111);
+    cursor:pointer;
+    transition: 0.3s ease;
+}
+
+footer .social_links i:hover{
+    background: rgb(66, 175, 199);
+    color:#ffffff;
+    cursor:pointer;
+    transition: 0.3s ease;
+}
+
+
