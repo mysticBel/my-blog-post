@@ -176,7 +176,6 @@ h6{
     background-color: #fffed5;
 }
 
-
 .subtitle{
     font-weight: bold;
     display:block;
@@ -228,9 +227,8 @@ h6{
     margin-top: 10px;
     border-radius: 1rem;
     padding: 2rem 2rem;
-
-
 }
+
 .profile_picture img{
     border-radius: 50%;
     width: 100%;
@@ -243,6 +241,7 @@ h6{
         flex-direction: row;
     }
 }
+
 @media (max-width: 768px) {
     nav{
         padding: 15px 20px;
@@ -268,23 +267,21 @@ h6{
         flex-direction: column;
         width:100%;
     }
+
     #blog_container .blogs{
         width:100%;
         
     }
+
     #blog_container .categories{
         width:100%;
         
     }
+
     #blog_container .blogs .post p{
         padding: 1px;
     }
-    /*#blog_container .blogs .post .autor-box {
-        display: grid;
-        grid-template-columns:100px 300px;
-        grid-gap:0.5rem;
-        margin-top: 50px;
-    }*/
+    
     #blog_container .blogs .post .autor-box {
         display: flex;
         flex-direction: row;
@@ -293,8 +290,7 @@ h6{
 
 @media (max-width: 376px){
     #blog_container{
-        flex-direction: column;
-        
+        flex-direction: column;        
     }
     
 }
